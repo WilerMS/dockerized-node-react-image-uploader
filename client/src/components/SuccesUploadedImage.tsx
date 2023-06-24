@@ -28,7 +28,7 @@ const SuccesUploadedImage: FC<Props> = ({
       </div>
 
       <div className='rounded-[12px] overflow-hidden w-full h-[350px] mt-[20px]'>
-        <img className='h-full object-cover' src={file} alt="uploaded foto" />
+        <img className='h-full w-full object-cover' src={file} alt="uploaded foto" />
       </div>
 
       <div className='flex items-center justify-center w-full h-[32px] mt-[15px]'>

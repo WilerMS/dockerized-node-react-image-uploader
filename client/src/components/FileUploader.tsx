@@ -4,12 +4,12 @@ import SelectFileBtn from '@components/SelectFileBtn'
 import UploadFileBtn from './UploadFileBtn'
 
 interface Props {
-  onChangeFile: (file: File | undefined) => void
+  onChangeFile?: (file: File | undefined) => void
   onUploadFile: (file: File) => void
 }
 
 const FileUploader: FC<Props> = ({
-  onChangeFile,
+  onChangeFile = () => { },
   onUploadFile
 }) => {
   const [file, setFile] = useState<File>()

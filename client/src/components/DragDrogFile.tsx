@@ -1,6 +1,7 @@
 import dragdropimage from '@assets/image.svg'
 import { type FC } from 'react'
 import FaTimes from 'icons/FaTimes'
+import { isImage } from 'utils/isImage'
 
 interface Props {
   file?: File
@@ -16,7 +17,7 @@ const DragDrogFile: FC<Props> = ({
   const handleChangeFile = (e: React.FormEvent<HTMLInputElement>) => {
     e.preventDefault()
     const newFile = e.currentTarget.files?.[0]
-    if (newFile) {
+    if (newFile && isImage(newFile)) {
       onFileDrop(newFile)
     }
   }
