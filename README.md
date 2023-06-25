@@ -1,5 +1,7 @@
 # Image Uploader Fullstack App
 
+![image](https://github.com/WilerMS/dockerized-node-react-image-uploader/assets/70902862/f49a9caf-7991-4adf-bb41-236ece21b9fe)
+
 ![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white)
 ![React](https://img.shields.io/badge/-React-%23282C34?logo=react)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-%23007ACC?logo=TypeScript&logoColor=white)
